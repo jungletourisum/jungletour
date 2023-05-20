@@ -23,7 +23,7 @@ map_dict = {0: 'BlacklippedLizard',
             11:'GreenPitViper',
             12:'CeylonKraitBungarusceylonicus',
             13:'RatSnake',
-            14;'RussellsViper',
+            14:'RussellsViper',
             15:'SriLankanFlyingSnake',
             16:'SriLankanKeelback'
             }
