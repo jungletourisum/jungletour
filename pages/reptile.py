@@ -5,13 +5,27 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
 
-model = tf.keras.models.load_model("saved_model/dryness.hdf5")
+model = tf.keras.models.load_model("saved_model/reptile.hdf5")
 ### load file
-uploaded_file = st.file_uploader("Choose a image file", type="auto")
+uploaded_file = st.file_uploader("Choose a image file")
 
-map_dict = {0: 'Half_Dry',
-            1: 'More_dry',
-            2: 'Dried'
+map_dict = {0: 'BlacklippedLizard',
+            1:'GreenForestLizard',
+            2:'CommonGardenLizard',
+            3:'RoughhornedLizard',
+            4:'SriLankanDayGecko',
+            5:'SriLankanFlyingLizard',
+            6:'SriLankanKangarooLizard',
+            7:'BambooPitViper',
+            8:'CheckeredKeelback',
+            9:'CommonWolfSnake',
+            10:'HumpnosedViper',
+            11:'GreenPitViper',
+            12:'CeylonKraitBungarusceylonicus',
+            13:'RatSnake',
+            14;'RussellsViper',
+            15:'SriLankanFlyingSnake',
+            16:'SriLankanKeelback'
             }
 
 
