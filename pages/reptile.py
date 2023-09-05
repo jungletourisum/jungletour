@@ -97,7 +97,11 @@ if uploaded_file is not None:
                     st.text_area("Venom:Non venomus")
                     st.text_area("Description The Black-lipped Lizard (Calotes nigrilabris) is a reptile species known for its striking appearance and unique features. With an average size of 30-40 centimeters, it showcases a vibrant combination of green and black coloration, complemented by a distinct black stripe on its upper lip. This lizard is classified as a species of least concern in terms of conservation status")
         if prediction == 9 :
-                    st.text_area("Description The Black-lipped Lizard (Calotes nigrilabris) is a reptile species known for its striking appearance and unique features. With an average size of 30-40 centimeters, it showcases a vibrant combination of green and black coloration, complemented by a distinct black stripe on its upper lip. This lizard is classified as a species of least concern in terms of conservation status")
+                    st.header('Common Wolf Snake Lycodon capucinus', divider='green')
+                    st.subheader('Kingdom :blue[Animalia]')
+                    st.subheader('Species :blue[L. capucinus]')
+                    st.text_area("Venom:Though the wolf snake is venomous, this venom is relatively mild. Even when they do bite humans, the impact is usually not harmful. Most bites result in pain and swelling, and do not result in any serious harm.")
+                    st.text_area("The Common Wolf Snake (Lycodon capucinus) is a non-venomous snake species found in various habitats, including the Sinharaja Forest.The Common Wolf Snake is a relatively small snake, usually measuring around 30-60 centimeters in length. It has a slender body with smooth scales and a distinct head shape that is slightly broader than its neck. It showcases a uniform brown or gray coloration without any distinct patterns or markings, making it appear solid and unpatterned, aiding in its identification.")
         if prediction == 11 :
                     st.text_area("Description The Black-lipped Lizard (Calotes nigrilabris) is a reptile species known for its striking appearance and unique features. With an average size of 30-40 centimeters, it showcases a vibrant combination of green and black coloration, complemented by a distinct black stripe on its upper lip. This lizard is classified as a species of least concern in terms of conservation status")
         st.title("Predicted Label for the image is {}".format(map_dict [prediction]))
