@@ -44,7 +44,7 @@ if uploaded_file is not None:
     Genrate_pred = st.button("Generate Prediction")    
     if Genrate_pred:
         prediction = model.predict(img_reshape).argmax()
-        if prediction = 0 :
+        if prediction == 0 :
            st.text("Description : The Black-lipped Lizard (Calotes nigrilabris) is a reptile species known for its striking appearance and unique features. With an average size of 30-40 centimeters, it showcases a vibrant combination of green and black coloration, complemented by a distinct black stripe on its upper lip. This lizard is classified as a species of least concern in terms of conservation status.
 ")
         else:
