@@ -72,6 +72,10 @@ if uploaded_file is not None:
                     st.header('Jasmine - Jasmine', divider='green')
                     st.subheader('Medicine :blue[Ancient Indian physicians such as Charaka and Sushruta used Jasminum grandiflorum for various medicinal purposes. This flower is also given a variety of names in India as it is used for different remedies. Parts of J. grandiflorum, including their sprouts and flowers (dried), have been used for prescriptions. This type of holistic medicine was used to treat various sicknesses such as dermatosis, coryza, and nasal haemorrhage]')
                     st.subheader('Description :blue[It is a scrambling deciduous shrub growing to 2–4 m tall. The leaves are opposite, 5–12 cm long, pinnate with 5–11 leaflets. The flowers are produced in open cymes, the individual flowers are white having corolla with a basal tube 13–25 mm long and five lobes 13–22 mm long.In Pakistan, it grows wild in the Salt Range and Rawalpindi District at 500–1500 m altitude.]')  
+        if prediction == 2 :
+                    st.header('Carissa Carandas (Karanda)', divider='green')
+                    st.subheader('Medicine :blue[Karanda can treat acidity, indigestion, fresh and infected wounds, skin diseases, urinary disorders and diabetic ulcer, as well as biliousness, stomach pain, constipation, anemia, skin conditions, anorexia and insanity. Leaf decoction is used to treat fever, diarrhea, and earache]')
+                    st.subheader('Description :blue[Fruits start creamy white. They get a very pretty pink hue as they mature. They stay this way for over a month or two. They then mature to black fruit] ')
         if prediction == 26 :
                     st.header('Dun - Syzygium caryophyllatum', divider='green')
                     st.subheader('Useful Plant Parts :blue[Leaf,Bark,and Seed]')
