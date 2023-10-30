@@ -26,7 +26,7 @@ map_dict = {0: 'BlacklippedLizard',
             14:'RussellsViper',
             15:'SriLankanFlyingSnake',
             16:'SriLankanKeelback',
-            17:'NOT'
+            17:'Cannot Identified This is Not a Reptile Image or Modal Haven't This Data'
             }
 
 
