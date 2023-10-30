@@ -41,7 +41,7 @@ map_dict = { 0:'Black-Honey Shrub - Phyllanthus reticulatus',
              29:'Kekuna -Calophyllum inophyllum',
              30:'Kothala Himbutu - Salacia reticulata',
              31:'Meewana - Memecylon edule',
-             32:'NOT'
+             32:'Cannot Identified This is Not a Plant'
             }
 
 
