@@ -56,6 +56,8 @@ if uploaded_file is not None:
                     st.subheader('Kingdom :blue[Animalia]')
                     st.subheader('Species :blue[H. hypnale]')
                     st.text_area("Description : The Hump-nosed Viper (Hypnale spp.) is a venomous snake species found in the Sinharaja Forest. The Hump-nosed Viper is a medium-sized snake, averaging around 50-70 centimeters in length. It has a distinctive triangular-shaped head with a prominent hump on its nose. This species showcases various color variations, including shades of brown, gray, or olive, often accompanied by intricate patterns of zigzag lines or blotches along its body, aiding in its identification. It possesses keeled scales and vertical pupils")
+                    image = Image.open('Hump.jpg')
+                    st.image(image)
         if prediction == 5  :
                     st.header('Sri Lankan Flying Lizard (Draco dussumieri)', divider='green')
                     st.subheader('Kingdom :blue[Animalia]')
