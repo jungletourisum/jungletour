@@ -50,6 +50,7 @@ if uploaded_file is not None:
                     st.subheader('Kingdom :blue[Animalia]')
                     st.subheader('Class :blue[Reptilia]')
                     st.markdown(":green[Description:] The Black-lipped Lizard (Calotes nigrilabris) is a reptile species known for its striking appearance and unique features. With an average size of 30-40 centimeters, it showcases a vibrant combination of green and black coloration, complemented by a distinct black stripe on its upper lip. This lizard is classified as a species of least concern in terms of conservation status")
+                    st.image(opencv_image, channels="RGB")
         if prediction == 10 :
                     st.header('Hump-nosed Viper', divider='green')
                     st.subheader('Kingdom :blue[Animalia]')
