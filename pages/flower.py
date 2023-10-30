@@ -22,7 +22,8 @@ map_dict = {0:'Clematis',
             10:'neluflower',
             11:'orchid',
             12:'Rhododendron',
-            13:'thebu'
+            13:'thebu',
+            14:'NOT'
             }
 
 
