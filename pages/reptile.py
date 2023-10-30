@@ -51,13 +51,13 @@ if uploaded_file is not None:
                     st.subheader('Kingdom :blue[Animalia]')
                     st.subheader('Class :blue[Reptilia]')
                     st.markdown(":green[Description:] The Black-lipped Lizard (Calotes nigrilabris) is a reptile species known for its striking appearance and unique features. With an average size of 30-40 centimeters, it showcases a vibrant combination of green and black coloration, complemented by a distinct black stripe on its upper lip. This lizard is classified as a species of least concern in terms of conservation status")
-                    st.image(opencv_image, channels="RGB")
+                    st.image(""https://s3.amazonaws.com/media.jungledragon.com/images/2539/84356_small.jpg?AWSAccessKeyId=05GMT0V3GWVNE7GGM1R2&Expires=1701907210&Signature=JdEV3eDJCXbX2SQjGS2hs%2F%2BAFvg%3D)
         if prediction == 10 :
                     st.header('Hump-nosed Viper', divider='green')
                     st.subheader('Kingdom :blue[Animalia]')
                     st.subheader('Species :blue[H. hypnale]')
                     st.text_area("Description : The Hump-nosed Viper (Hypnale spp.) is a venomous snake species found in the Sinharaja Forest. The Hump-nosed Viper is a medium-sized snake, averaging around 50-70 centimeters in length. It has a distinctive triangular-shaped head with a prominent hump on its nose. This species showcases various color variations, including shades of brown, gray, or olive, often accompanied by intricate patterns of zigzag lines or blotches along its body, aiding in its identification. It possesses keeled scales and vertical pupils")
-                    st.image("https://images.squarespace-cdn.com/content/v1/5b4b10e19d5abb222d2069fe/1604538468941-JEZ0OW8QOJIFO02EHBCQ/Bamboo+Pit+Viper+-+Whitelipped+Pit+Viper+-+Trimeresurus+albolabris.jpg?format=750w")
+                    st.image("https://www.ephotozine.com/resize/2008/47/xlrg/81634_1227933432.jpg?RTUdGk5cXyJFAggJSEc4eghnfAYYGkVUGwBdOh80SxgRBAAhdSMKY1dhB2osTU0LPyASGA==")
         if prediction == 5  :
                     st.header('Sri Lankan Flying Lizard (Draco dussumieri)', divider='green')
                     st.subheader('Kingdom :blue[Animalia]')
@@ -94,6 +94,7 @@ if uploaded_file is not None:
                     st.subheader('Species :blue[C. gramineus]')
                     st.text_area("Venom:The Bamboo Pit Viper (Trimeresurus gramineus) is a venomous snake species.When threatened, it is aggressive and does not hesitate to bite. The venom is hemotoxic and neurotoxic.")
                     st.text_area("Description: The Bamboo Pit Viper is a medium-sized snake with an average length of around 70-90 centimeters. It displays striking coloration, ranging from vibrant shades of green to brown, allowing it to blend seamlessly into its arboreal habitat. This species is known for its triangular-shaped head, keeled scales, and a distinctive pattern of dark dorsal blotches or crossbands that run along its body, aiding in its identification.")
+                    st.image("https://images.squarespace-cdn.com/content/v1/5b4b10e19d5abb222d2069fe/1604538468941-JEZ0OW8QOJIFO02EHBCQ/Bamboo+Pit+Viper+-+Whitelipped+Pit+Viper+-+Trimeresurus+albolabris.jpg?format=750w")
         if prediction == 8:
                     st.header('Checkered Keelback (Xenochrophis piscator)', divider='green')
                     st.subheader('Kingdom :blue[Animalia]')
