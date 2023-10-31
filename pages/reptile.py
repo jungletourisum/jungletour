@@ -63,6 +63,7 @@ if uploaded_file is not None:
                     st.subheader('Kingdom :blue[Animalia]')
                     st.subheader('Species :blue[D. dussumieri]')
                     st.text_area("Description : The Sri Lankan Flying Lizard (Draco dussumieri) is a remarkable reptile species found in the forests of Sri Lanka and parts of southern India. Known for its exceptional gliding ability, it possesses elongated ribs that support a wing-like patagium. With a length of around 25 centimeters, it showcases a striking combination of green and yellow hues, often adorned with intricate patterns. This lizard is considered of least concern in terms of conservation status, benefiting from its wide distribution and adaptability to various forest habitats")
+                    st.image("https://inaturalist-open-data.s3.amazonaws.com/photos/166971510/small.jpeg")
         if prediction == 1 :
                     st.header('Green Forest Lizard (Calotes calotes)ard (Otocryptis wiegmanni)', divider='green')
                     st.subheader('Kingdom :blue[Animalia]')
