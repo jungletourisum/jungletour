@@ -1,2 +1,7 @@
 opencv-contrib-python-headless
-tensorflow
+tensorflow==2.13.0
+keras==2.13.1
+tensorflow-hub==0.14.0
+pandas==2.0.3
+opencv-python==4.8.0.74
+
